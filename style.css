@@ -1,0 +1,165 @@
+
+/* Page Styles
+==================================================================*/
+
+body{
+font: normal 1.1em/1.5 sans-serif;
+color:#222;
+background-color: #CBE86B;
+}
+.main-wrapper{
+  width:90%;
+  margin: auto;
+}
+* {
+  box-sizing:border-box;
+}
+
+/* Layout Element Colors
+==================================================================*/
+.main-header{background-color: #556270;}
+.about-content{background-color: #87D683;}
+.frontpage-content{background-color: #87D683;}
+.interests-main{background-color:#87D683; }
+.main-footer{background-color: transparent;}
+.top-picture{background-color: transparent;}
+.gallery-main{background-color:#87D683; }
+img{background-color: transparent;}
+
+/* Header, Banner and Footer Layout
+==================================================================*/
+#myhead{
+  display:block;
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.main-header{
+  padding:20px;
+  display:table;
+  width:100%;
+  min-height: 150px;
+}
+.main-logo,
+.main-nav,
+.main-nav li {
+  display: inline-block;
+}
+.main-logo,
+.main-nav,{
+  display:table-cell;
+  vertical-align: middle;
+}
+.main-nav li{
+  background-color: #4ECDC4;
+  border-radius:5px;
+}
+.main-logo{
+  background-color: #C44D58;
+  border-radius: 5px;
+}
+.main-logo{
+  width:120;
+}
+.main-nav a,
+.main-logo a{
+  text-decoration: none;
+  color:white;
+  display:inline-block;
+  text-align: center;
+  padding: 10px 20px;
+}
+.about-content h2,
+.about-content h3{
+  display:block;
+ text-align: center;
+}
+
+.main-logo a:hover{
+  background-color: #CC2A41;
+  border-radius: 5px;
+}
+.main-nav a:hover{
+  background-color:#2DB5BF;
+  border-radius:5px;
+}
+.main-header,
+.about-content,
+.frontpage-content,
+.interests-main{
+  border-radius: 5px;
+}
+.interests-main{
+  margin-top: 10px;
+}
+.webimages{
+  list-style-type: none;
+  list-style: none;
+}
+.photogallery{
+  list-style: none;
+  list-style-type: none;
+}
+#photolist{
+  list-style-type: none;
+}
+
+/* Column Layout
+==================================================================*/
+.col{
+  display: inline-block;
+  padding:20px;
+  margin-right: -5px;
+}
+.frontpage-content{
+  margin-top: 10px;
+}
+.frontpage-content p{
+  width:90%;
+  margin-left:20px;
+  margin-bottom: 10px;
+}
+.about-content{
+  margin-top: 10px;
+}
+.education{
+  width:35%;
+  display: inline-block;
+}
+.work-experience{
+  width:60%;
+  display: inline-block;
+  margin-left: 20px;
+}
+.interests-main{
+  display:inline-block;
+}
+}
+.main-footer{
+  text-align: center;
+}
+.gallery-main{
+  display: block;
+  border-radius: 5px;
+}
+.gallery-main h2{
+  margin-left: 5px;
+}
+
+/* Media Queries
+==================================================================*/
+@media (max-width:768px){
+  .main-logo,
+  .main-nav,
+  main-nav li{
+    display: block;
+    width:initial;
+    margin:initial;
+  }
+  .main-nav{
+    padding-left:initial;
+  }
+  .main-nav li{
+    margin-top:15px;
+  }
+}
